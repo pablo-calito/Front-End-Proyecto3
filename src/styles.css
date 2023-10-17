@@ -1,0 +1,128 @@
+body {
+    background: radial-gradient(circle farthest-corner at 10% 20%, rgba(33, 115, 130, 1) 1.5%, rgba(35, 39, 124, 1) 100%) no-repeat;
+    background-attachment: fixed;
+}
+
+
+#slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    /* Ajusta la altura según tus necesidades */
+}
+
+.carousel {
+    max-width: 90vh;
+    /* Ajusta el ancho máximo según tus necesidades */
+    box-shadow: 5px 5px 16px rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+#cursos {
+    margin-bottom: 20px;
+}
+
+.navbar {
+    position: static;
+    border-radius: 40px 40px;
+    margin: 30px;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 20px;
+    box-shadow: 5px 5px 16px rgb(255, 255, 255);
+
+}
+
+.navbar-brand {
+    margin-left: 1%;
+    font-size: 30px;
+}
+
+
+.card {
+    margin-top: 20px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: antiquewhite;
+}
+
+
+/* Estilos para aplicar sombra a la tarjeta */
+.shadow-card {
+    box-shadow: 5px 5px 16px rgb(255, 255, 255);
+}
+
+
+
+.card-img-top {
+    border-radius: 50px 50px 0px 0px;
+}
+
+#cursostitulo {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.401);
+    border-radius: 40px 40px;
+    margin: 30px;
+    margin-left: 4%;
+    margin-right: 4%;
+    box-shadow: 5px 5px 16px rgb(255, 255, 255);
+}
+
+#textocursos {
+    font-size: 40px;
+    padding: 10px;
+    color: white;
+}
+
+#imagenNavbar {
+    height: 70px;
+}
+
+.botonesCursos {
+    background-color: #1034d4;
+}
+
+.botonesCursos:hover {
+    background-color: rgb(17, 0, 148);
+}
+
+.tituloSlider {
+    text-shadow: 5px 5px 10px rgb(236, 47, 47);
+}
+
+.img-func {
+    height: 70vh;
+    max-width: 90vh;
+    box-shadow: 5px 5px 16px rgb(255, 255, 255);
+
+}
+
+.sipnosis {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.401);
+    margin: 20px;
+    width: 120%;
+    box-shadow: 5px 5px 16px rgb(255, 255, 255);
+    padding: 20px;
+    
+}
+
+.Overview {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    margin: 20px;
+}
+
+.dropdown-toggle{
+    display: flex;
+    align-items: start;
+    margin: 20px;
+}
+
+.IMG-SEAT{
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 90%;
+    width: 90%;
+}
